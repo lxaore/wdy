@@ -1,0 +1,34 @@
+$base-color: #0dc441;
+
+@font-face {
+  font-family: yofont;
+  src: url("/footballSNS/images/iconfont/iconfont.woff") format("woff"), url("/footballSNS/images/iconfont/iconfont.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: yofont;
+  src: url("/footballSNS/images/iconfont/iconfont-menu.woff") format("woff"), url("/footballSNS/images/iconfont/iconfont-menu.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: yofont;
+  src: url("/footballSNS/images/iconfont/iconfont-back.woff") format("woff"), url("/footballSNS/images/iconfont/iconfont-back.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: yofont;
+  src: url(//ss.qunarzz.com/yo/font/1.0.3/yofont.woff) format("woff"), url(//ss.qunarzz.com/yo/font/1.0.3/yofont.ttf) format("truetype");
+}
+
+%header {
+  height: .44rem;
+  @include flexbox();
+  background: $base-color;
+  i {
+    width: .44rem;
+    text-align: center;
+    line-height: .44rem;
+    font-size: .22rem;
+    color: rgba(255, 255, 255, 0.8);
+  }
+}

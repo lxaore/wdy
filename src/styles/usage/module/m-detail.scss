@@ -1,0 +1,15 @@
+.m-detail {
+  header {
+
+    @extend %header;
+
+    span {
+      font-size: 14px;
+      color: #fff;
+      text-align: center;
+      line-height: .44rem;
+      @include flex();
+      @include ellipsis(100%, 1);
+    }
+  }
+}

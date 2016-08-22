@@ -1,0 +1,10 @@
+@import "../../lib/fragment/yo-dialog";
+
+@include yo-dialog(
+  $name: a,
+  $width: 2rem,
+  $height: 1.8rem,
+  $radius: 50%
+){
+  min-width: 2rem
+};
